@@ -1,0 +1,177 @@
+#country {
+  position: relative;
+  top: 114px;
+  left: 768px;
+  font-family: 'Roboto', sans-serif;
+  color: #4285f4;
+  width: 12px;
+  font-size: 16px;
+  font-weight: 100;
+  letter-spacing: 1px;
+}
+
+#logo {
+  display: block;
+  width: 272px;
+  margin: auto;
+  position: relative;
+  top: 200px;
+}
+
+#search-form {
+  display: block;
+  width: 568px;
+  margin: auto;
+  text-align: center;
+  position: relative;
+  top: 220px;
+}
+
+#search-box {
+  width: 566px;
+  height: 26px;
+  border-radius: 0;
+  border: 1px solid #aababf;
+}
+
+#search-box:focus, #search:focus, #lucky:focus {
+  border: 1px solid #4285f4;
+}
+
+#search{
+  display: inline-block;
+  width: 132px;
+  height: 36px;
+  position: relative;
+  top: 30px;
+  border-radius: 0;
+  border-color: transparent;
+  font-family: Arial;
+  font-size: 13px;
+  color: #757575;
+  font-weight: bold;
+}
+
+#lucky{
+  display: inline-block;
+  width: 150px;
+  height: 36px;
+  position: relative;
+  top: 30px;
+  border-radius: 0;
+  border-color: transparent;
+  font-family: Arial;
+  font-size: 13px;
+  color: #757575;
+  font-weight: bold;
+}
+
+#search:hover, #lucky:hover {
+  background-color: #f4f4f4;
+  border: 1px solid #c6c6c6;
+  color: #222225;
+}
+
+#search-box:hover {
+  border: 1px solid #8A9396;
+}
+
+li {
+  display: inline-block;
+}
+
+#navbar {
+  position: absolute;
+  right: 0;
+  top: 13px;
+  width: 240px;
+  height: 38px;
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+}
+
+#gmail {
+  padding-right: 13px;
+}
+
+#images {
+  padding-right: 13px;
+}
+
+#apps {
+  position: relative;
+  padding-right: 13px;
+  top: 7px;
+  /* filter is an experimental feature. I used it to turn my black "apps icon" to gray.
+  to do that, I made it somewhat transparent, so result turned out to be some white
+  and some black ==> gray */
+  filter: opacity(55%);
+}
+
+#foot a {
+  text-decoration: none;
+  color: #404040;
+}
+
+#foot a:hover{
+  text-decoration: underline;
+}
+
+li #signin {
+  color: white;
+  font-weight: bold;
+  padding: 7px 13px;
+  background-color: #4484f3;
+  border-radius: 5%;
+}
+
+li #signin:hover{
+  text-decoration: none;
+  box-shadow: .4px .4px .4px #888888;
+}
+
+#apps:hover {
+  filter: opacity(100%);
+}
+
+#footer {
+  clear: both;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  font-family: Arial, serif;
+  font-size: 13px;
+  background-color: #f2f2f2;
+  height: 40px;
+  border-top: 1px solid #e4e4e4;
+}
+
+#left {
+  float: left;
+}
+
+#right {
+  float: right;
+}
+
+#advertising, #business, #about, #privacy, #terms, #settings {
+  padding: 14px 12px 12px 14px;
+  color: #6a717a;
+}
+
+#advertising {
+  padding-left: 30px;
+}
+
+#settings {
+  padding-right: 30px;
+}
+
+#footer a {
+  text-decoration: none;
+  color: #6a717a;
+}
+
+#footer a:hover{
+  text-decoration: underline;
+}
